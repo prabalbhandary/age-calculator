@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age & Number Revealer</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Age & Number Revealer</h1>
+      <form class="form" id="revealForm">
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="number"
+            id="a"
+            placeholder="Enter a single-digit number"
+            min="0"
+            max="9"
+            required
+          />
+          <button class="btn" type="submit">Reveal</button>
+        </div>
+      </form>
+      <p id="result" class="result"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
