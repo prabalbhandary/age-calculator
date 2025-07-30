@@ -6,6 +6,6 @@ if you had your birthday this year
 d+1775 = e
 otherwise 
 d+1774 =e
-e- bityear  = f (3-digit number)
+e- birthyear  = f (3-digit number)
 1st number a
 2nd and 3rd number is your age
